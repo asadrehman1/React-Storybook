@@ -1,13 +1,8 @@
 import "./App.css";
-import { Button } from "./components/Button";
 
 function App() {
   return (
-    <>
-      <Button onClick={() => alert("Hello")} variant="primary" size="sm">
-        Primary
-      </Button>
-    </>
+    <h1 className="text-center text-3xl font-bold">Welcome to Storybook</h1>
   );
 }
 
